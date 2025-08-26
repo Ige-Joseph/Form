@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+
+    min-height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.formdiv{
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 50vh;
+}
