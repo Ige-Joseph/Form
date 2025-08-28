@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet"  href="index.css">
     <title>Document</title>
 </head>
@@ -10,18 +13,75 @@
 
     <div class="formdiv">
 
-        <h1> Form </h1>
+        <h1> Todo List </h1>
 
-        <h1 class="jsTest">Javascript Not working</h1>
+        <div class="ValueDiv">
+
+            <input  class="EnterValue testValue" type="text" placeholder="Enter your Todo">
+
+            <input class="EnterValue DateValue" type="date">
+
+            <input class="EnterValue TimeValue" type="time">
+
+
     </div>
 
-    <script src="index.js"> 
+        <button class="submit js-submit"> Add Task </button>
+
+
+        <diV class="TodoLIstsDiv js-TodoLIstsDiv">
+
+            <div class="Task"> 
+                
+                <div class="TaskDetails">
+
+                <b> Wash Plate </b>
+                <a> 12/12/25 </a>
+                <a> 10:00AM </a>
+
+                </div>
+
+
+                <div class="Deletebtn"> 
+                    
+                    <button> Delete </button> 
+                
+                </div>
+
+            </div>
+
+
+                        <div class="Task"> 
+                
+                <div class="TaskDetails">
+
+                <b> Wash Plate </b>
+                <a> 12/12/25 </a>
+                <a> 10:00AM </a>
+
+                </div>
+
+
+                <div class="Deletebtn"> 
+                    
+                    <button> Delete </button> 
+                
+                </div>
+
+            </div>
+            
+
+
+
+        </diV>
     
-    
-    
+
+    </div>
+
+    <script src="/index.js">
+
+
+
     </script>
 </body>
-
 </html>
-
-

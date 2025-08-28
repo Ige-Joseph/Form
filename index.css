@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(231, 231, 231);
 
     min-height: 90vh;
     color: white;
@@ -7,13 +7,118 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: roboto;
 
 }
 
 
 .formdiv{
+    padding: 3vh;
     background-color: white;
     color: black;
     width: 80%;
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    overflow-y: scroll;
+}
+
+.submit{
+    background-color: rgb(1, 163, 218);
+    border: none;
+    padding: 1vh 2vh;
+    border-radius: 3vh;
+    color: white;
+    transition: 1s;
+}
+
+.submit:hover{
+    background-color: aqua;
+}
+
+.ValueDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+}
+
+
+.EnterValue{
+    
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.TodoLIstsDiv{
+    min-height: 30vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.Task{
+    display: flex;;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.264);
+    padding: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.TaskDetails{
+    flex: 6;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.Deletebtn{
+    flex: 1;
+    
+}
+
+
+.Deletebtn > button{
+    background-color: rgb(1, 163, 218);
+    border: none;
+    padding: 1vh 2vh;
+    border-radius: 3vh;
+    color: white;
+    
+    
+}
+
+
+@media (max-width: 700px) {
+    body {
+        background-color: black;
+    }
+
+    
+    .ValueDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+    }
+
+
+    .TodoLIstsDiv{
+    min-height: 10vh;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+
+    overflow-x: scroll;
+    }
+
+
 }
